@@ -13,7 +13,7 @@ GitHub-ready Cloudflare Worker + D1 Pinterest publisher.
 - Official Pinterest image Pin creation
 - Account pause on 401/403
 - Queue/history data in D1
-- OAuth tokens encrypted with AES-GCM
+- OAuth tokens encrypted with AES-GCM 
 
 ## Deployment
 1. Create/obtain Pinterest Trial access and app credentials.
