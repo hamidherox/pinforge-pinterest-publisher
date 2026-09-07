@@ -7,8 +7,8 @@ APP_BASE_URL = "https://CHANGE-ME.example.com"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "pinforge-pinterest"
-database_id = "c9cfcce7-e49d-487f-83ae-62edaf400bcd"
+database_name = "pinforge-publisher-db"
+database_id = "c5930581-7123-4518-80c8-bcac89d89fcb"
 
 [triggers]
 crons = ["* * * * *"]
