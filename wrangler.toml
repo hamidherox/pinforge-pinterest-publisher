@@ -1,0 +1,18 @@
+name = "pinforge-pinterest-publisher"
+main = "src/worker.js"
+compatibility_date = "2026-09-01"
+
+[vars]
+APP_BASE_URL = "https://CHANGE-ME.example.com"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "pinforge-pinterest"
+database_id = "CHANGE-ME"
+
+[triggers]
+crons = ["* * * * *"]
+
+[assets]
+directory = "./public"
+binding = "ASSETS"

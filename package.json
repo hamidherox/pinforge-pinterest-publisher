@@ -1,0 +1,1 @@
+{"name":"pinforge-pinterest-publisher","private":true,"type":"module","scripts":{"dev":"wrangler dev","deploy":"wrangler deploy"},"devDependencies":{"wrangler":"^4.35.0"}}
